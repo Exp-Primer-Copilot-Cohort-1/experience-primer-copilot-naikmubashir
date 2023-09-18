@@ -1,3 +1,11 @@
 function calculateNumbers(var1, var2){
-    return var1 + var2;
-}
+    var sum = var1 + var2;
+    var product = var1 * var2;
+    var difference = var1 - var2;
+    var quotient = var1 / var2;
+    var remainder = var1 % var2;
+
+    var results = [sum, product, difference, quotient, remainder];
+
+    return results;
+} 
